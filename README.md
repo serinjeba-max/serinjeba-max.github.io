@@ -1,1 +1,0 @@
-# serinjeba-max.github.io
