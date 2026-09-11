@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0 20px;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+header {
+  text-align: center;
+  padding: 40px 0 20px;
+}
+
+header h1 {
+  margin-bottom: 5px;
+  color: #1a252f;
+}
+
+header p {
+  color: #555;
+  font-size: 1.1rem;
+  margin-top: 0;
+}
+
+.contact-links a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  background: #ffffff;
+  padding: 24px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+h2 {
+  color: #1a252f;
+  border-bottom: 2px solid #e9ecef;
+  padding-bottom: 8px;
+  margin-top: 0;
+}
+
+.skills-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tag {
+  background-color: #e9ecef;
+  color: #333;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.project-card {
+  border-left: 4px solid #0066cc;
+  background: #f8f9fa;
+  padding: 15px 20px;
+  margin-top: 15px;
+  border-radius: 0 8px 8px 0;
+}
+
+.project-card h3 {
+  margin-top: 0;
+  color: #1a252f;
+}
+
+.tech-stack {
+  font-size: 0.9rem;
+  color: #495057;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  color: #6c757d;
+  font-size: 0.85rem;
+}
